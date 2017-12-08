@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Section2_Exercise2_StackOverflowPost
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("I need help with my app! This is my problem...");
+            Post.UpVote();
             //upvote
             //upvote
             //upvote
@@ -20,7 +21,16 @@ namespace Section2_Exercise2_StackOverflowPost
 
     public class Post
     {
-        var counter = 0;
+        int counter = 0;
 
+        public void UpVote()
+        {
+            counter++;
+        }
+
+        public static void DownVote()
+        {
+            counter--;
+        }
     }
 }
