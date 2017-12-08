@@ -10,11 +10,17 @@ namespace Section2_Exercise2_StackOverflowPost
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("I need help with my app! This is my problem...");
+            //upvote
+            //upvote
+            //upvote
+            //downvote
         }
     }
 
     public class Post
     {
+        var counter = 0;
 
     }
 }
