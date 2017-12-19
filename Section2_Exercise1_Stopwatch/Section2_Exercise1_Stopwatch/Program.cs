@@ -21,8 +21,13 @@ namespace Section2_Exercise1_Stopwatch
     {
         public void Start()
         {
-            DateTime start = new DateTime();
-            DateTime stop = new DateTime();
+            //DateTime start = new DateTime();
+            //DateTime stop = new DateTime();
+
+            var dateTime = new DateTime();
+            var start = Console.WriteLine(DateTime.Now);
+            start.AddSeconds();
+            // 
         }
 
         public void Stop()
