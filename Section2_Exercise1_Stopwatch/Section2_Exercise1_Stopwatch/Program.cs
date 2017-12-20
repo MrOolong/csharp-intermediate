@@ -25,7 +25,7 @@ namespace Section2_Exercise1_Stopwatch
             //DateTime stop = new DateTime();
 
             var dateTime = new DateTime();
-            var start = Console.WriteLine(DateTime.Now);
+            var start = DateTime.Now;
             start.AddSeconds();
             // 
         }
